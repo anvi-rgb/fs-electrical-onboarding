@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.508,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -162,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.032,
@@ -173,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.032,
@@ -184,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.032,
@@ -474,6 +493,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -495,7 +515,7 @@
     ]
   },
   "meta": {
-    "filename": "template.kicad_pro",
+    "filename": "Anvita-Yeleswarapu.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -813,8 +833,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "template.kicad_sch",
-        "name": "",
+        "filename": "Anvita-Yeleswarapu.kicad_sch",
+        "name": "Anvita-Yeleswarapu",
         "uuid": "e994741c-7c7d-4124-9d00-43b883baa61d"
       }
     ],
@@ -824,15 +844,15 @@
   "sheets": [
     [
       "e994741c-7c7d-4124-9d00-43b883baa61d",
-      ""
+      "Anvita-Yeleswarapu"
     ]
   ],
   "text_variables": {
-    "BOARD_TITLE": "[BOARD TITLE]",
-    "COMMENT1": "[COMMENT]",
+    "BOARD_TITLE": "5 V Buck Converter",
+    "COMMENT1": "Power Electronics Onboarding 2026-2027",
     "COMMENT2": "",
-    "NAMES": "[NAMES]",
-    "REVISION": "[REVISION]"
+    "NAMES": "Anvita Yeleswarapu",
+    "REVISION": "0.1"
   },
   "tuning_profiles": {
     "meta": {
